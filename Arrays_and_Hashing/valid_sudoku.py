@@ -1,3 +1,5 @@
+#I made this a lot harder on myself than I needed to but it works
+ 
 class Solution:
     
     def isValidSudoku(self, board: list[list[str]]) -> bool:
