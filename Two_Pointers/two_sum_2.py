@@ -10,6 +10,7 @@ class Solution:
         while True:
             curr_sum = numbers[left] + numbers[right]
             if curr_sum == target:
+                # return index + 1 since solution wants index to be 1-based
               return [left + 1,  right + 1]
             if numbers[right] > target or curr_sum > target:
                 right -= 1
@@ -18,7 +19,8 @@ class Solution:
     
     """
     Uses the same method as the previous two sum solution and still works really well.
-    I'd still use this method over the other solution
+    I'd still use this method over the other solution as it works whether the array is 
+    sorted or not.
     """
     def twoSumMap(self, numbers: list[int], target: int) -> list[int]:
         visited = defaultdict()
