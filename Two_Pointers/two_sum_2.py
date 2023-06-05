@@ -7,7 +7,7 @@ class Solution:
     def twoSum(self, numbers: list[int], target: int) -> list[int]:
         left = 0
         right = len(numbers) - 1
-        while True:
+        while left != right:
             curr_sum = numbers[left] + numbers[right]
             if curr_sum == target:
                 # return index + 1 since solution wants index to be 1-based
