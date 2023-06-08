@@ -1,3 +1,7 @@
+"""
+https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+"""
+
 from collections import defaultdict
 
 class Solution:
@@ -30,14 +34,7 @@ class Solution:
             visited[value] = index + 1
             
             
-solution = Solution()
-print(f"[1, 3]: {solution.twoSum([1,2,3,4], 4)}")
-print(f"[1, 2]: {solution.twoSum([2,7,11,15], 9)}")
-print(f"[1, 3]: {solution.twoSum([2,3,4], 6)}")
-print(f"[2, 3]: {solution.twoSum([2,3,4], 7)}")
-print(f"[1, 2]: {solution.twoSum([1,2], 3)}")
-print(f"[1, 2]: {solution.twoSum([-1,0], -1)}")
-print(f"[3, 4]: {solution.twoSum([-1000,-1,0,1], 1)}")
+
 
 
 

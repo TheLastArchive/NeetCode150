@@ -34,9 +34,3 @@ class Solution:
             
         return output
     
-    
-solution = Solution()
-print(f"[[-1, -1, 2],[-1, 0, 1]]: {solution.threeSum([-1, 0, 1, 2, -1, -4])}")
-print(f"[]: {solution.threeSum([0, 1, 1])}")
-print(f"[0, 0, 0]: {solution.threeSum([0, 0, 0])}")
-print(f"[[0, 0, 0]]: {solution.threeSum([0, 0, 0, 0])}")
