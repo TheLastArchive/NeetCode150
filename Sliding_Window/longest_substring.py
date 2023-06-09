@@ -6,7 +6,7 @@ from collections import deque
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         
-        #Can be made quicker with a set
+        #Can be made quicker with a set since deque lookup isn't O(1)
         substr = deque()
         max_substr = 0
         for letter in s:
@@ -26,6 +26,7 @@ class Solution:
         for letter in s:
             while letter in substr:
                 #Sets are unordered so we'll need to iterate through the origingal list
+                #to find elements
                 substr.remove(s[i])
                 i += 1
             substr.add(letter)
