@@ -1,2 +1,3 @@
 from Sliding_Window.max_profit import Solution
 from Sliding_Window.longest_substring import Solution
+from Sliding_Window.character_replacement import Solution
