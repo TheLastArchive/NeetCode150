@@ -25,7 +25,7 @@ class Solution:
         i = 0
         for letter in s:
             while letter in substr:
-                #Sets are unordered so we'll need to iterate through the origingal list
+                #Sets are unordered so we'll need to iterate through the original list
                 #to find elements
                 substr.remove(s[i])
                 i += 1
