@@ -2,4 +2,5 @@ from Sliding_Window.max_profit import Solution
 from Sliding_Window.longest_substring import Solution
 from Sliding_Window.character_replacement import Solution
 from Sliding_Window.check_inclusion import Solution
-
+from Sliding_Window.minimum_window import Solution
+from Sliding_Window.max_sliding_window import Solution
