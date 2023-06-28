@@ -8,9 +8,9 @@ class Solution:
     def minWindow(self, s: str, t: str) -> str:
         left, right = 0, 0
         t_list = list(t)
-        while True:
-            while s[left] not in t:
-                left += 1
+        # while True:
+        #     while s[left] not in t:
+        #         left += 1
             
         return
 
