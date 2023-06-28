@@ -6,7 +6,7 @@ current = os.path.dirname(os.path.realpath(__file__))
 parent = os.path.dirname(current)
 root = os.path.dirname(parent)
 sys.path.append(root)
-import Two_Pointers as tp
+import Two_Pointers.two_sum_2 as tp
 
 class TestTwoSumTwo(unittest.TestCase):
     def test_correct_two_pointer(self):

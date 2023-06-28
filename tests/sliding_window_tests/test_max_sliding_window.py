@@ -6,7 +6,7 @@ current = os.path.dirname(os.path.realpath(__file__))
 parent = os.path.dirname(current)
 root = os.path.dirname(parent)
 sys.path.append(root)
-import Sliding_Window as sw
+import Sliding_Window.max_sliding_window as sw
 
 class TestMaxSlidingWindow(unittest.TestCase):
     def test_correct(self):
