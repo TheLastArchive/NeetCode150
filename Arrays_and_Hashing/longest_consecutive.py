@@ -1,3 +1,7 @@
+"""
+https://leetcode.com/problems/longest-consecutive-sequence/
+"""
+
 class Solution:
     """
     This solution is fine and pretty fast. It checks each element in both directions
@@ -50,14 +54,4 @@ class Solution:
                 longest_seq = curr_seq
                 
         return longest_seq
-            
-            
-if __name__ == '__main__':
-    solution = Solution()
-    print(f"4: {solution.longestConsecutive([100,4,200,1,3,2])}")
-    print(f"9: {solution.longestConsecutive([0,3,7,2,5,8,4,6,0,1])}")
-    print(f"5: {solution.longestConsecutive([0,1,3,2,1,4])}")
-    print(f"3: {solution.longestConsecutive([1,0,-1])}")
-    print(f"0: {solution.longestConsecutive([])}")
-    print(f"1: {solution.longestConsecutive([0])}")
     

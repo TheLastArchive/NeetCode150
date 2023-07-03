@@ -1,3 +1,7 @@
+"""
+https://leetcode.com/problems/two-sum/
+"""
+
 class Solution:
     # Double nested for-loop = yucky. Dynamic would be much better
     # def twoSum(self, nums: list[int], target: int) -> list[int]:

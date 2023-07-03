@@ -1,3 +1,7 @@
+"""
+https://leetcode.com/problems/group-anagrams/
+"""
+
 from collections import defaultdict
 
 class Solution:
@@ -8,5 +12,4 @@ class Solution:
             #Sort word to make it easier to compare
             sorted_word = ''.join(sorted(word))
             sorted_strs_dict[sorted_word].append(strs[index])
-            #Unpack the values into a list
         return [*sorted_strs_dict.values()]
