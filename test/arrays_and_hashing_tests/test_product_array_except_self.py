@@ -8,7 +8,7 @@ root = os.path.dirname(parent)
 sys.path.append(root)
 import Arrays_and_Hashing.product_array_except_self as aah
 
-class TestContainsDuplicates(unittest.TestCase):
+class TestProductArrayExceptSelf(unittest.TestCase):
     def test_correct(self):
         solution = aah.Solution()
         self.assertEqual(solution.productExceptSelf([1,2,3,4]), [24,12,8,6])

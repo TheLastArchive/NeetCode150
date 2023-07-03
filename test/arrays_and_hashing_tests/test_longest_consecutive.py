@@ -8,7 +8,7 @@ root = os.path.dirname(parent)
 sys.path.append(root)
 import Arrays_and_Hashing.longest_consecutive as aah
 
-class TestContainsDuplicates(unittest.TestCase):
+class TestLongestConsecutive(unittest.TestCase):
     def test_correct(self):
         solution = aah.Solution()
         self.assertEqual(solution.longestConsecutive([100,4,200,1,3,2]), 4)

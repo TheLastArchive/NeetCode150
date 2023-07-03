@@ -8,7 +8,7 @@ root = os.path.dirname(parent)
 sys.path.append(root)
 import Arrays_and_Hashing.group_anagrams as aah
 
-class TestContainsDuplicates(unittest.TestCase):
+class TestGroupAnagrams(unittest.TestCase):
     def test_correct(self):
         solution = aah.Solution()
         expected = [["bat"],["nat","tan"],["ate","eat","tea"]]

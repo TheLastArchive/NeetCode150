@@ -8,7 +8,7 @@ root = os.path.dirname(parent)
 sys.path.append(root)
 import Arrays_and_Hashing.top_k_frequent_elements as aah
 
-class TestContainsDuplicates(unittest.TestCase):
+class TestTopKFrequent(unittest.TestCase):
     def test_correct(self):
         solution = aah.Solution()
         self.assertEqual(solution.topKFrequent([1,1,1,2,2,3], 2), [1,2])

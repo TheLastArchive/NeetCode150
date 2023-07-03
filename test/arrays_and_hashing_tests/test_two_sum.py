@@ -8,7 +8,7 @@ root = os.path.dirname(parent)
 sys.path.append(root)
 import Arrays_and_Hashing.two_sum as aah
 
-class TestContainsDuplicates(unittest.TestCase):
+class TestTwoSum(unittest.TestCase):
     def test_correct(self):
         solution = aah.Solution()
         self.assertEqual(solution.twoSum([2,7,11,15], 9), [0,1])

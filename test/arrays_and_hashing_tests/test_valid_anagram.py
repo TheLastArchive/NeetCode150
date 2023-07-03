@@ -8,7 +8,7 @@ root = os.path.dirname(parent)
 sys.path.append(root)
 import Arrays_and_Hashing.valid_anagram as aah
 
-class TestContainsDuplicates(unittest.TestCase):
+class TestValidAnagram(unittest.TestCase):
     def test_correct(self):
         solution = aah.Solution()
         self.assertTrue(solution.isAnagram("anagram", "nagaram"))

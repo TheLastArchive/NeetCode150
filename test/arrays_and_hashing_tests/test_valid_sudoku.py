@@ -8,7 +8,7 @@ root = os.path.dirname(parent)
 sys.path.append(root)
 import Arrays_and_Hashing.valid_sudoku as aah
 
-class TestContainsDuplicates(unittest.TestCase):
+class TestValidSudoku(unittest.TestCase):
     def test_correct(self):
         solution = aah.Solution()
         self.assertTrue(solution.isValidSudoku(
