@@ -11,7 +11,6 @@ class Solution:
         stack = deque()
         opens = ["(", "[", "{"]
         text = list(s)
-        i = 0
         for i, char in enumerate(text):
             # Check if there is a closed bracket before an open bracket
             if char not in opens and len(stack) == 0:
