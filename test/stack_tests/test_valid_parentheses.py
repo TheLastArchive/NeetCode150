@@ -8,13 +8,15 @@ root = os.path.dirname(parent)
 sys.path.append(root)
 import Stack.valid_parentheses as stack
 
+
 class TestValidParentheses(unittest.TestCase):
-    
+
     def test_correct(self):
         solution = stack.Solution()
         self.assertTrue(solution.isValid("()"))
         self.assertTrue(solution.isValid("()[]{}"))
         self.assertFalse(solution.isValid("(]"))
+        self.assertFalse(solution.isValid("]"))
 
 
 if __name__ == '__main__':
