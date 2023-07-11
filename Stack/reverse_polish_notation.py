@@ -11,7 +11,7 @@ class Solution:
         if operator == "*":
             return x * y
         if operator == "/":
-            # certain division won't truncate to 0 ie -1/2 == -1
+            # certain division won't round towards 0  ie -1/2 == -1
             # Floating point to int will make it 0
             return int(x / y)
 
